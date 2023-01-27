@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions,
+.a__btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h5,
+p {
+    color: #ffff;
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.q__div {
+    margin-bottom: 20px;
+}
+
+.rotate {
+    rotate: 180deg;
+    transition: all 0.5s ease;
+}
+
+.change__bg {
+    background-color: red;
+}
